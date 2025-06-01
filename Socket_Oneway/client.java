@@ -9,7 +9,7 @@ public class client {
     public client(String addr, int port)
     {
         try {
-            s = new Socket(addr, port);
+            
             System.out.println("Connected");
 
             in = new DataInputStream(System.in);
